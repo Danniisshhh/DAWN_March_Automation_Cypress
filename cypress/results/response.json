@@ -1,0 +1,391 @@
+{
+  "runAt": "2026-03-05T10:48:31.880Z",
+  "count": 55,
+  "items": [
+    {
+      "index": 1,
+      "query": "How do I add a second device to myAir?",
+      "send_at": "2026-03-05T10:34:06.199Z",
+      "first_chunk_at": "2026-03-05T10:34:35.579Z",
+      "ms_to_first_chunk": 29380
+    },
+    {
+      "index": 2,
+      "query": "Can I connect two CPAP machines to myAir?",
+      "send_at": "2026-03-05T10:34:38.908Z",
+      "first_chunk_at": "2026-03-05T10:34:49.623Z",
+      "ms_to_first_chunk": 10715
+    },
+    {
+      "index": 3,
+      "query": "How can I add another device to myAir account?",
+      "send_at": "2026-03-05T10:34:53.318Z",
+      "first_chunk_at": "2026-03-05T10:35:00.085Z",
+      "ms_to_first_chunk": 6767
+    },
+    {
+      "index": 4,
+      "query": "I have two CPAP machines, how do I add both to myAir?",
+      "send_at": "2026-03-05T10:35:04.199Z",
+      "first_chunk_at": "2026-03-05T10:35:18.174Z",
+      "ms_to_first_chunk": 13975
+    },
+    {
+      "index": 5,
+      "query": "How do I register a second device in myAir app?",
+      "send_at": "2026-03-05T10:35:21.903Z",
+      "first_chunk_at": "2026-03-05T10:35:31.092Z",
+      "ms_to_first_chunk": 9189
+    },
+    {
+      "index": 6,
+      "query": "Can myAir track two devices?",
+      "send_at": "2026-03-05T10:35:33.654Z",
+      "first_chunk_at": "2026-03-05T10:35:41.363Z",
+      "ms_to_first_chunk": 7709
+    },
+    {
+      "index": 7,
+      "query": "How can I link multiple devices to myAir?",
+      "send_at": "2026-03-05T10:35:44.764Z",
+      "first_chunk_at": "2026-03-05T10:35:51.528Z",
+      "ms_to_first_chunk": 6764
+    },
+    {
+      "index": 8,
+      "query": "Is it possible to add another machine to myAir?",
+      "send_at": "2026-03-05T10:35:55.268Z",
+      "first_chunk_at": "2026-03-05T10:36:02.837Z",
+      "ms_to_first_chunk": 7569
+    },
+    {
+      "index": 9,
+      "query": "How do I connect my second CPAP device?",
+      "send_at": "2026-03-05T10:36:06.083Z",
+      "first_chunk_at": "2026-03-05T10:36:17.420Z",
+      "ms_to_first_chunk": 11337
+    },
+    {
+      "index": 10,
+      "query": "Can I use two devices with myAir?",
+      "send_at": "2026-03-05T10:36:20.283Z",
+      "first_chunk_at": "2026-03-05T10:36:28.292Z",
+      "ms_to_first_chunk": 8009
+    },
+    {
+      "index": 11,
+      "query": "How to add a new device in myAir?",
+      "send_at": "2026-03-05T10:36:31.219Z",
+      "first_chunk_at": "2026-03-05T10:36:41.835Z",
+      "ms_to_first_chunk": 10616
+    },
+    {
+      "index": 12,
+      "query": "How do I switch devices in myAir?",
+      "send_at": "2026-03-05T10:36:44.907Z",
+      "first_chunk_at": "2026-03-05T10:37:02.829Z",
+      "ms_to_first_chunk": 17922
+    },
+    {
+      "index": 13,
+      "query": "I got a new CPAP machine, how do I add it to myAir?",
+      "send_at": "2026-03-05T10:37:06.892Z",
+      "first_chunk_at": "2026-03-05T10:37:20.412Z",
+      "ms_to_first_chunk": 13520
+    },
+    {
+      "index": 14,
+      "query": "How can I replace my old device with a new one in myAir?",
+      "send_at": "2026-03-05T10:37:24.869Z",
+      "first_chunk_at": "2026-03-05T10:37:39.528Z",
+      "ms_to_first_chunk": 14659
+    },
+    {
+      "index": 15,
+      "query": "Can I add multiple machines to the myAir app?",
+      "send_at": "2026-03-05T10:37:43.561Z",
+      "first_chunk_at": "2026-03-05T10:37:59.978Z",
+      "ms_to_first_chunk": 16417
+    },
+    {
+      "index": 16,
+      "query": "Why can’t I add another device to myAir?",
+      "send_at": "2026-03-05T10:38:03.539Z",
+      "first_chunk_at": "2026-03-05T10:38:17.691Z",
+      "ms_to_first_chunk": 14152
+    },
+    {
+      "index": 17,
+      "query": "Does myAir support multiple devices?",
+      "send_at": "2026-03-05T10:38:21.085Z",
+      "first_chunk_at": "2026-03-05T10:38:33.968Z",
+      "ms_to_first_chunk": 12883
+    },
+    {
+      "index": 18,
+      "query": "How many devices can I connect to myAir?",
+      "send_at": "2026-03-05T10:38:37.555Z",
+      "first_chunk_at": "2026-03-05T10:38:46.827Z",
+      "ms_to_first_chunk": 9272
+    },
+    {
+      "index": 19,
+      "query": "Can I manage two CPAP devices in one myAir account?",
+      "send_at": "2026-03-05T10:38:51.277Z",
+      "first_chunk_at": "2026-03-05T10:39:04.248Z",
+      "ms_to_first_chunk": 12971
+    },
+    {
+      "index": 20,
+      "query": "How do I add another AirSense device to myAir?",
+      "send_at": "2026-03-05T10:39:08.104Z",
+      "first_chunk_at": "2026-03-05T10:39:15.188Z",
+      "ms_to_first_chunk": 7084
+    },
+    {
+      "index": 21,
+      "query": "I want to connect my backup CPAP machine to myAir, how do I do it?",
+      "send_at": "2026-03-05T10:39:20.752Z",
+      "first_chunk_at": "2026-03-05T10:39:32.612Z",
+      "ms_to_first_chunk": 11860
+    },
+    {
+      "index": 22,
+      "query": "How do I pair a second machine with myAir?",
+      "send_at": "2026-03-05T10:39:36.427Z",
+      "first_chunk_at": "2026-03-05T10:39:58.429Z",
+      "ms_to_first_chunk": 22002
+    },
+    {
+      "index": 23,
+      "query": "Can myAir monitor two CPAP machines?",
+      "send_at": "2026-03-05T10:40:01.870Z",
+      "first_chunk_at": "2026-03-05T10:40:14.812Z",
+      "ms_to_first_chunk": 12942
+    },
+    {
+      "index": 24,
+      "query": "How can I link my second sleep device to myAir?",
+      "send_at": "2026-03-05T10:40:18.941Z",
+      "first_chunk_at": "2026-03-05T10:40:31.929Z",
+      "ms_to_first_chunk": 12988
+    },
+    {
+      "index": 25,
+      "query": "How to add an additional device in myAir app?",
+      "send_at": "2026-03-05T10:40:35.946Z",
+      "first_chunk_at": "2026-03-05T10:40:46.205Z",
+      "ms_to_first_chunk": 10259
+    },
+    {
+      "index": 26,
+      "query": "Can I add another CPAP machine to myAir?",
+      "send_at": "2026-03-05T10:40:49.779Z",
+      "first_chunk_at": "2026-03-05T10:41:01.959Z",
+      "ms_to_first_chunk": 12180
+    },
+    {
+      "index": 27,
+      "query": "How do I connect two sleep therapy devices to myAir?",
+      "send_at": "2026-03-05T10:41:06.711Z",
+      "first_chunk_at": "2026-03-05T10:41:15.025Z",
+      "ms_to_first_chunk": 8314
+    },
+    {
+      "index": 28,
+      "query": "Is it possible to track two machines in myAir?",
+      "send_at": "2026-03-05T10:41:19.266Z",
+      "first_chunk_at": "2026-03-05T10:41:28.521Z",
+      "ms_to_first_chunk": 9255
+    },
+    {
+      "index": 29,
+      "query": "Can I register more than one device in the myAir app?",
+      "send_at": "2026-03-05T10:41:33.243Z",
+      "first_chunk_at": "2026-03-05T10:41:47.218Z",
+      "ms_to_first_chunk": 13975
+    },
+    {
+      "index": 30,
+      "query": "How can I add my second ResMed device to myAir?",
+      "send_at": "2026-03-05T10:41:51.516Z",
+      "first_chunk_at": "2026-03-05T10:42:00.176Z",
+      "ms_to_first_chunk": 8660
+    },
+    {
+      "index": 31,
+      "query": "Does myAir allow multiple CPAP devices?",
+      "send_at": "2026-03-05T10:42:03.889Z",
+      "first_chunk_at": "2026-03-05T10:42:17.956Z",
+      "ms_to_first_chunk": 14067
+    },
+    {
+      "index": 32,
+      "query": "How do I link another machine with myAir?",
+      "send_at": "2026-03-05T10:42:22.061Z",
+      "first_chunk_at": "2026-03-05T10:42:27.511Z",
+      "ms_to_first_chunk": 5450
+    },
+    {
+      "index": 33,
+      "query": "Can I sync two devices with myAir account?",
+      "send_at": "2026-03-05T10:42:31.647Z",
+      "first_chunk_at": "2026-03-05T10:42:37.786Z",
+      "ms_to_first_chunk": 6139
+    },
+    {
+      "index": 34,
+      "query": "How many CPAP machines can I connect to myAir?",
+      "send_at": "2026-03-05T10:42:42.277Z",
+      "first_chunk_at": "2026-03-05T10:42:56.428Z",
+      "ms_to_first_chunk": 14151
+    },
+    {
+      "index": 35,
+      "query": "How do I pair an additional device with myAir?",
+      "send_at": "2026-03-05T10:43:00.612Z",
+      "first_chunk_at": "2026-03-05T10:43:15.852Z",
+      "ms_to_first_chunk": 15240
+    },
+    {
+      "index": 36,
+      "query": "I have two machines, how do I connect both to myAir?",
+      "send_at": "2026-03-05T10:43:20.567Z",
+      "first_chunk_at": "2026-03-05T10:43:26.258Z",
+      "ms_to_first_chunk": 5691
+    },
+    {
+      "index": 37,
+      "query": "Can I manage multiple sleep devices in the myAir app?",
+      "send_at": "2026-03-05T10:43:31.334Z",
+      "first_chunk_at": "2026-03-05T10:43:44.076Z",
+      "ms_to_first_chunk": 12742
+    },
+    {
+      "index": 38,
+      "query": "How do I connect my backup CPAP to myAir?",
+      "send_at": "2026-03-05T10:43:48.169Z",
+      "first_chunk_at": "2026-03-05T10:43:57.816Z",
+      "ms_to_first_chunk": 9647
+    },
+    {
+      "index": 39,
+      "query": "Can I add my partner’s device to myAir?",
+      "send_at": "2026-03-05T10:44:01.992Z",
+      "first_chunk_at": "2026-03-05T10:44:08.454Z",
+      "ms_to_first_chunk": 6462
+    },
+    {
+      "index": 40,
+      "query": "How do I register another therapy device in myAir?",
+      "send_at": "2026-03-05T10:44:13.076Z",
+      "first_chunk_at": "2026-03-05T10:44:21.241Z",
+      "ms_to_first_chunk": 8165
+    },
+    {
+      "index": 41,
+      "query": "Can myAir monitor more than one machine?",
+      "send_at": "2026-03-05T10:44:25.530Z",
+      "first_chunk_at": "2026-03-05T10:44:39.957Z",
+      "ms_to_first_chunk": 14427
+    },
+    {
+      "index": 42,
+      "query": "How do I add a second AirSense device to myAir?",
+      "send_at": "2026-03-05T10:44:44.550Z",
+      "first_chunk_at": "2026-03-05T10:44:59.844Z",
+      "ms_to_first_chunk": 15294
+    },
+    {
+      "index": 43,
+      "query": "Can I connect both my home and travel CPAP to myAir?",
+      "send_at": "2026-03-05T10:45:05.149Z",
+      "first_chunk_at": "2026-03-05T10:45:15.920Z",
+      "ms_to_first_chunk": 10771
+    },
+    {
+      "index": 44,
+      "query": "Is it possible to use two CPAP machines with one myAir account?",
+      "send_at": "2026-03-05T10:45:21.965Z",
+      "first_chunk_at": "2026-03-05T10:45:37.113Z",
+      "ms_to_first_chunk": 15148
+    },
+    {
+      "index": 45,
+      "query": "How do I link an extra device to myAir?",
+      "send_at": "2026-03-05T10:45:41.437Z",
+      "first_chunk_at": "2026-03-05T10:45:52.685Z",
+      "ms_to_first_chunk": 11248
+    },
+    {
+      "index": 46,
+      "query": "How can I add my new CPAP device to the myAir app?",
+      "send_at": "2026-03-05T10:45:58.198Z",
+      "first_chunk_at": "2026-03-05T10:46:05.416Z",
+      "ms_to_first_chunk": 7218
+    },
+    {
+      "index": 47,
+      "query": "What should I do if I have two CPAP devices?",
+      "send_at": "2026-03-05T10:46:10.017Z",
+      "first_chunk_at": "2026-03-05T10:46:17.821Z",
+      "ms_to_first_chunk": 7804
+    },
+    {
+      "index": 48,
+      "query": "How do I track therapy from two devices in myAir?",
+      "send_at": "2026-03-05T10:46:22.578Z",
+      "first_chunk_at": "2026-03-05T10:46:40.714Z",
+      "ms_to_first_chunk": 18136
+    },
+    {
+      "index": 49,
+      "query": "Can I add my second sleep machine to myAir profile?",
+      "send_at": "2026-03-05T10:46:45.712Z",
+      "first_chunk_at": "2026-03-05T10:47:00.689Z",
+      "ms_to_first_chunk": 14977
+    },
+    {
+      "index": 50,
+      "query": "How do I connect another ResMed machine to myAir?",
+      "send_at": "2026-03-05T10:47:05.657Z",
+      "first_chunk_at": "2026-03-05T10:47:17.600Z",
+      "ms_to_first_chunk": 11943
+    },
+    {
+      "index": 51,
+      "query": "Can myAir support multiple therapy devices?",
+      "send_at": "2026-03-05T10:47:22.301Z",
+      "first_chunk_at": "2026-03-05T10:47:30.131Z",
+      "ms_to_first_chunk": 7830
+    },
+    {
+      "index": 52,
+      "query": "How can I switch between two CPAP machines in myAir?",
+      "send_at": "2026-03-05T10:47:35.797Z",
+      "first_chunk_at": "2026-03-05T10:47:48.733Z",
+      "ms_to_first_chunk": 12936
+    },
+    {
+      "index": 53,
+      "query": "How do I manage two CPAP devices in one account?",
+      "send_at": "2026-03-05T10:47:53.294Z",
+      "first_chunk_at": "2026-03-05T10:48:03.681Z",
+      "ms_to_first_chunk": 10387
+    },
+    {
+      "index": 54,
+      "query": "Can I register multiple devices in myAir?",
+      "send_at": "2026-03-05T10:48:07.970Z",
+      "first_chunk_at": "2026-03-05T10:48:18.487Z",
+      "ms_to_first_chunk": 10517
+    },
+    {
+      "index": 55,
+      "query": "How do I sync another sleep device with myAir?",
+      "send_at": "2026-03-05T10:48:23.648Z",
+      "first_chunk_at": "2026-03-05T10:48:31.307Z",
+      "ms_to_first_chunk": 7659
+    }
+  ]
+}

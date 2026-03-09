@@ -6,10 +6,10 @@ describe("Chatbot Automation", () => {
       ".btc_chat_card_bot_span_msg, .chat-messages .assistant, .chat-messages .bot";
     const USER_SELECTOR = ".btc_chat_card_user";
 
-    cy.visit("https://chat.va-dev.dht.live/");
-    cy.wait(15000);
+    cy.visit("https://chat-myair.dawn-us-dev.dht.live/");
+    cy.wait(50000);
     cy.get(".btn").click();
-    cy.wait(10000);
+    cy.wait(50000);
 
     cy.get("body").then(($body) => {
       if ($body.find("#exampleInputName").length > 0) {
@@ -24,6 +24,7 @@ describe("Chatbot Automation", () => {
           cy.get(".terms_agree_btn").click();
         });
       }
+
     });
     cy.log("Login Done");
 
@@ -55,23 +56,38 @@ describe("Chatbot Automation", () => {
         // Handle multiline queries (replace newlines with space or keep as it is)
         const formattedQuery = query.replace(/\n/g, " ");
 
+        // Ensure the chat is ready for a new message (WAIT for previous stream to finish)
+        // If the app disables input/button while generating, this logic waits for it to return to normal.
+        cy.get(".chatbox_btn", { timeout: 120000 }).should("not.be.disabled");
+
         // ensure the textarea is present and ready
         cy.get("textarea#myTextArea", { timeout: 60000 })
           .should("be.visible")
           .clear({ force: true })
           .type(formattedQuery, { delay: 50, force: true });
 
+        // Wait for UI to update (React often needs a tick to enable the button after typing)
+        cy.wait(1000);
+
         cy.then(() => {
           const prevCount = Cypress.$(BOT_SELECTOR).length;
+          const prevUserCount = Cypress.$(USER_SELECTOR).length;
           const prevText =
             prevCount > 0 ? Cypress.$(BOT_SELECTOR).last().text().trim() : "";
 
           const sendAt = Date.now();
           const sendAtISO = new Date(sendAt).toISOString();
-          cy.get(".chatbox_btn").click({ force: true });
+
+          // Confirm button is enabled before clicking
+          cy.get(".chatbox_btn").should("not.be.disabled").click({ force: true });
+
+          // Verify user message appeared to confirm send
+          cy.get(USER_SELECTOR, { timeout: 20000 }).should(($els) => {
+            expect($els.length).to.be.greaterThan(prevUserCount, "User message appeared");
+          });
 
           // wait for first chunk
-          cy.get(BOT_SELECTOR, { timeout: 60000 })
+          cy.get(BOT_SELECTOR, { timeout: 180000 })
             .should(($els) => {
               const newCount = $els.length;
               const lastText = newCount > 0 ? $els.last().text().trim() : "";
@@ -81,7 +97,7 @@ describe("Chatbot Automation", () => {
                   ? newCount > 0
                   : newCount > prevCount || lastText !== prevText;
 
-              expect(ok, "bot message appeared or updated").to.be.true;
+              expect(ok, `bot message appeared or updated (prevCount: ${prevCount}, newCount: ${newCount}, prevTxtLen: ${prevText.length}, lastTxtLen: ${lastText.length})`).to.be.true;
             })
             .then(() => {
               const firstChunkAt = Date.now();

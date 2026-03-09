@@ -6,7 +6,7 @@ describe("Chatbot Automation", () => {
       ".btc_chat_card_bot_span_msg, .chat-messages .assistant, .chat-messages .bot";
     const USER_SELECTOR = ".btc_chat_card_user";
 
-    cy.visit("https://chat-myair.dawn-us-pre-prod.dht.live/");
+    cy.visit("https://chat-myair.dawn-us-dev.dht.live/");
     cy.wait(15000);
     cy.get(".btn").click();
     cy.wait(10000);
@@ -28,7 +28,7 @@ describe("Chatbot Automation", () => {
     });
     cy.log("Login Done");
     cy.task("readExcel", {
-      filePath: "cypress/fixtures/MTN_2.xlsx",
+      filePath: "cypress/fixtures/updated_myAir_Dawn_US_4_4_0_vivek_part_2_complex_queries.xlsx",
       sheetName: "Sheet1",
     }).then((rows) => {
       const queries = rows
